@@ -272,25 +272,25 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 //         console.log('Not a valid day');
 // }
 
-// // Conditional
-// const age = 1;
-// // one way
-// age >= 18 ? console.log('First') :
-//     console.log('Second');
-//
-// // second way
-// age >= 18 ? console.log('Third'): console.log('Fourth')
-//
-// // as variable
-// const x = age >= 18 ? 'Fifth' : 'Sixth';
-// console.log(x);
-//
-// console.log(`The answer is ${x}`);
+ // Conditional
+ const age = 1;
+ // one way
+ age >= 18 ? console.log('First') :
+     console.log('Second');
 
-// // Coding Challenge 4
-// const bill = 430;
-// const tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
-// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+ // second way
+ age >= 18 ? console.log('Third'): console.log('Fourth')
+
+ // as variable
+ const x = age >= 18 ? 'Fifth' : 'Sixth';
+ console.log(x);
+
+ console.log(`The answer is ${x}`);
+
+ // Coding Challenge 4
+ const bill = 430;
+ const tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
+ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
 
 
